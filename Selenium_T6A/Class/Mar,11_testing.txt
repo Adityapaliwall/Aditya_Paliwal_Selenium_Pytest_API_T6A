@@ -1,0 +1,43 @@
+Software testing - Checking if software works as per user requirements.
+2 Ways of testing ->
+    1. Manual 
+        ~ Disadvantage -> 
+            a. Time consuming
+            b. Tedious(Too long or slow), Monotonous(same)
+            c. Depends on man power
+
+    2. Automation - Testing a software / application with the help of tools / technology.
+                  - Write script once and run it many times.  
+
+                  ~ Advantages - 
+                        a. Faster execution
+                        b. Time saving
+                        c. Less man power required
+                        d. Consistency and accuracy
+                        e. Reusability
+                  ~ Disadvantage-
+                        a. Initial cost is high
+                        b. Technical issues possible
+                        c. Programming skills is required  
+                        d. No human judgement   
+Tools for testing:
+                1. Selenium
+                2. QTP
+                3. Test Complete
+                4. Playwright
+
+Selenium Components:
+        --> Selenium RC :-> it is complex steup, because rc server should br seperatly install
+            (2004)
+        --> Selenium IDE : -> it is record and play back tools
+            (2006)
+        --> Selenium Webdriver --> Directly communicates with the browser, Faster and more stable
+            (2009)
+        --> Selenium Grid : -> Selenium Grid is a tool used to run Selenium tests on multiple machines, browsers, and operating systems at the same time (parallel testing). 
+            (2011)
+- Selenium found in 2004 by Jason Huggins
+
+Drawback --> 
+            1. Only for web Browser not for mobile
+            2. 100% automation is not possible
+            
