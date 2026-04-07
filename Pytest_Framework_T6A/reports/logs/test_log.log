@@ -22,3 +22,9 @@
 2026-04-04 16:25:31,347 - utils.loggers - [INFO] - Entering password
 2026-04-04 16:25:31,570 - utils.loggers - [INFO] - Clicking login button
 2026-04-04 16:25:32,624 - utils.loggers - [INFO] - Login steps completed
+2026-04-05 19:55:17,754 - utils.loggers - [INFO] - Opening website
+2026-04-05 19:55:19,014 - utils.loggers - [INFO] - Clicking login link
+2026-04-05 19:55:21,465 - utils.loggers - [INFO] - Entering email
+2026-04-05 19:55:22,262 - utils.loggers - [INFO] - Entering password
+2026-04-05 19:55:22,753 - utils.loggers - [INFO] - Clicking login button
+2026-04-05 19:55:26,393 - utils.loggers - [INFO] - Login steps completed
