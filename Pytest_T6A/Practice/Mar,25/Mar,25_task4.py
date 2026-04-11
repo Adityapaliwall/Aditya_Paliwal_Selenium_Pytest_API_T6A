@@ -14,7 +14,7 @@ driver.get("https://www.saucedemo.com/")
 
 driver.find_element(By.XPATH, '//input[@id="user-name"]').send_keys("standard_user")
 driver.find_element(By.XPATH, '//input[@id="password"]').send_keys("asdfg")
-driver.find_element(By.XPATH, '//input[@id="login-button"]').click()
+driver.find_element(By.XPATH, '//input[@id="SHOPPER_PROFILE-button"]').click()
 
 try:
     actual = driver.current_url

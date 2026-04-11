@@ -8,7 +8,7 @@ def test_valid_login(setup_and_teardown):
 
     logger = get_logger()   # creating logger to track steps
 
-    lp = LoginPage(driver)   # creating object of login page
+    lp = LoginPage(driver)   # creating object of SHOPPER_PROFILE page
 
     # reading data from config file
     config = ConfigReader.read_config()
@@ -22,8 +22,8 @@ def test_valid_login(setup_and_teardown):
 
     driver.get(BASE_URL)   # open website
 
-    # performing login steps
-    logger.info("Clicking login link")
+    # performing SHOPPER_PROFILE steps
+    logger.info("Clicking SHOPPER_PROFILE link")
     lp.click_login()
 
     logger.info("Entering email")
@@ -32,7 +32,7 @@ def test_valid_login(setup_and_teardown):
     logger.info("Entering password")
     lp.enter_password(PASSWORD)
 
-    logger.info("Clicking login button")
+    logger.info("Clicking SHOPPER_PROFILE button")
     lp.click_login_button()
 
     logger.info("Login steps completed")

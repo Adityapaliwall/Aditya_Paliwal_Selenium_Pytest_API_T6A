@@ -4,7 +4,7 @@ from pages.base_page import BasePage
 
 class LoginPage(BasePage):
 
-    # locators for login page elements
+    # locators for SHOPPER_PROFILE page elements
     login_link = (By.LINK_TEXT, "Log in")
     email = (By.ID, "Email")
     password = (By.ID, "Password")
@@ -14,7 +14,7 @@ class LoginPage(BasePage):
         super().__init__(driver)   # calling base class constructor
 
     def click_login(self):
-        self.click(self.login_link)   # click login link
+        self.click(self.login_link)   # click SHOPPER_PROFILE link
 
     def enter_email(self, email):
         self.enter_text(self.email, email)   # enter email
@@ -23,5 +23,5 @@ class LoginPage(BasePage):
         self.enter_text(self.password, password)   # enter password
 
     def click_login_button(self):
-        self.click(self.login_button)   # click login button
+        self.click(self.login_button)   # click SHOPPER_PROFILE button
 

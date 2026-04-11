@@ -28,7 +28,7 @@ def test_sauce_login(test_openChrome, username, password):
 
     driver.find_element(By.ID, "user-name").send_keys(username)
     driver.find_element(By.ID, "password").send_keys(password)
-    driver.find_element(By.ID, "login-button").click()
+    driver.find_element(By.ID, "SHOPPER_PROFILE-button").click()
 
     assert driver.current_url == actual
     print("test passed")
